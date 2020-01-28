@@ -1,0 +1,19 @@
+% 文件：ex_5_4.m
+% 演示：内存映射机制
+
+clear;
+% 产生文件
+% randData=rand(5000,1);
+% fid = fopen('records.dat','w');
+% save 'records.txt' -ascii
+% % fwrite(fid, randData, 'double');
+% fclose(fid);
+% return;
+% 为records.dat构建一个映射对象
+m = memmapfile('records.txt','Writable',true);
+
+% 看一下对象m的属性
+disp(m);
+
+% 如何使用？
+m.Data(:)=m.Data(:).*2;

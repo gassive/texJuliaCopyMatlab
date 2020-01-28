@@ -1,0 +1,65 @@
+% 文件：ex_4_1.m
+% 演示：常见字符串操作
+
+%% 1、字符串定义
+% 字符是字符串的基本组成单位
+% 一个字符的大小是两个字节
+char_a='a';
+% 字符串是字符数组（字符向量）
+string_a=['a','a'];
+% 字符串：用单引号括起来的字符序列
+string_a_1='aa';
+% 创建空字符串
+string_b=blanks(2);
+
+%% 2、字符串的向量化操作
+% 可以将字符串理解为字符向量，也可以对字符串进行向量(矩阵)运算
+string_c='My name is Liang';
+c_length=length(string_c);
+c_size=size(string_c);
+c_sub=string_c(4:8);
+c_transpose=string_c';
+string_c_matrix=[string_c;string_c;string_c];
+
+%% 3、字符串常用操作（使用built-in函数）
+string_1='My name is';
+string_2=' Liang';
+
+% 字符串连接
+% 注意：连接的第一个字符串末位空格会被忽略！
+string_3=strcat(string_1,string_2);
+% 字符串比较
+string_compare=strcmp(string_c,string_3);
+% 字符串查找
+string_find=findstr(string_2,string_3);
+% 字符串替换
+string_replace=strrep(string_3,string_2,' xxxx');
+% 字符串分割
+[string_tok,remain]=strtok(string_3);
+[string_tok_1,remain_1]=strtok(string_3,'is');
+% 删除尾部空格
+string_deblank=deblank(' s fd ');
+% 删除首尾空格
+string_trim=strtrim(' s fd ');
+% 改变大小写
+string_lower=lower(string_3);
+string_upper=upper(string_3);
+
+%% 4、字符串的格式化处理
+fprintf('My name is %s \n',string_2);
+num_1=35;
+fprintf('Number is %d \n',num_1);
+fprintf('Number is %5d \n',num_1);
+num_2=35.7;
+fprintf('Number is %10.5f \n',num_2);
+fprintf('Number is %.7f \n',num_2);
+
+%% 5、is函数 
+temp_1=isletter('xxxx2xx34x');
+temp_2=isspace(' fs fsd ');
+
+%% 6、字符串与数字的相互转化
+s1=int2str(num_1);
+s2=num2str(num_2);
+s3='467.78';
+num_3=str2num(s3);
