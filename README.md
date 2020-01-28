@@ -3,17 +3,17 @@
 ## Why do I study Julia
 
 - Mastered programming languages: 
--- level 2：C(all the time)/Fortran(at CAS)/Matlab(at ETH) 
--- level 1: Go(at ECTEC)/JS(at ECTEC)/C#(at Itasca)
--- level 0: Python(at ETH)/
+    - level 2：C(all the time)/Fortran(at CAS)/Matlab(at ETH) 
+    - level 1: Go(at ECTEC)/JS(at ECTEC)/C#(at Itasca)
+    - level 0: Python(at ETH)/
 
 - Why Julia
--- Julia = C + Fortran + Matlab = a combination of my favors
--- Julia covers my fields: PDE/FEM/HPC/ML and maybe later quantum computing
+    - Julia = C + Fortran + Matlab = a combination of my favors
+    - Julia covers my fields: PDE/FEM/HPC/ML and maybe later quantum computing
 
 - Other interested languages:
--- Rust = Go(=C#) + JS (WebAssemblly) 
--- Python = a glue language
+    - Rust = Go(=C#) + JS (WebAssemblly) 
+    - Python = a glue language
 
 ## Why do I create this project
 From my short time experience (2 days), Julia language is not difficult if you know English. 
