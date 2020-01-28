@@ -23,7 +23,7 @@ However in China, it is really difficult due to the following reasons:
 - Chinese teaching resources only copy English material, no original analysis
 - emmm, many other reasons ...
 
-My motivation is to solve above problems. I gave a private Matlab course in CMA 10 years ago, that repeating the Matlab examples may be quick way to master basic points of Julia. This is why I create this project, to study Julia by coding in practice. 
+My motivation is to solve above problems. I gave a private Matlab course in CMA 10 years ago, that I think repeating those Matlab examples may be a quick way to master basic points of Julia. This is why I create this project, to study Julia by coding in practice. 
 
 I hope to understand and use Julia in depth first, and help Chinese students understand and use Julia later. 
 
