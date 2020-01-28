@@ -2,9 +2,9 @@
 
 ## 一些说明
 我的学习和探索经历都会用语雀文档记录下来，一些技巧性的，特别是针对国内网络环境的package安装技巧都会在这里记录。
-- Julia语言学习笔记[link](https://www.yuque.com/docs/share/8ae0438c-a60a-4973-b9cc-5a08d106cef6?#)
-- Julia Pro第一次使用遇到问题[link](https://www.yuque.com/docs/share/27933d1f-31bd-47ae-81ac-52474f3d1918?#)
-...
+- Julia语言学习笔记 - [link](https://www.yuque.com/docs/share/8ae0438c-a60a-4973-b9cc-5a08d106cef6?#)
+- Julia Pro第一次使用遇到问题 - [link](https://www.yuque.com/docs/share/27933d1f-31bd-47ae-81ac-52474f3d1918?#)
+- ...
 
 ## Why do I study Julia
 
