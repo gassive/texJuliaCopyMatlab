@@ -1,0 +1,13 @@
+% 文件：ex_4_2.m
+% 演示：元胞数组操作
+clear;
+student_info={'Liang Zheng','Male',27;'Geophysics','Scientific Computing',2013};
+disp('Name:');
+name=student_info(1,1);
+disp(name);
+disp('Gender:');
+gender=student_info(2,2);
+disp(gender);
+disp('Age:');
+age=student_info(3,3);
+disp(age(1));

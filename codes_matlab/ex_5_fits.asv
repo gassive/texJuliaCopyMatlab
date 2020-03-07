@@ -1,0 +1,10 @@
+% 文件：ex_5_fits.m
+% 演示：MATLAB读取fits文件
+
+clear;
+S = fitsinfo('22072506.fts');
+data = fitsread('22072506.fts', 'Primary');
+subplot(2,2,1);
+image(data/100); colormap(hot);
+subplot(2,2,2);
+image(data/100); colormap(h);

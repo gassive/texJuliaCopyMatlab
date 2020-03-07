@@ -1,0 +1,16 @@
+classdef student_info_class
+    properties
+        name,gender,age,major,grad_year,record;
+    end
+    methods(Static)
+        function s=modify_name(a)
+            s=a;
+        end
+        function s=modify_record(a)
+            s=a;
+        end
+        function test()
+            disp();
+        end
+    end
+end

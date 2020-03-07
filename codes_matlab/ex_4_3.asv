@@ -1,0 +1,19 @@
+% 文件：ex_4_3.m
+% 演示：结构体操作
+clear;
+
+% 初始化结构体
+student_info=struct( ...
+    'name','Liang ZHENG', ...
+    'gender','Male', ...
+    'age',27, ...
+    'major','Geophysics', ...
+    'grad_year',2013, ...
+    'record',80);
+% disp(student_info);
+
+% 定义结构体数组
+students_info=repmat(student_info,10);
+% 传递结构体数组参数
+students_info=info_modify(students_info);
+    

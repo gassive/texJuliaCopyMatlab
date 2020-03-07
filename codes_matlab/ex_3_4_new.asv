@@ -1,0 +1,13 @@
+function ex_3_4_new()
+%文件：ex_3_4_new.m
+%演示：函数名作为参数传递
+
+%给出输入向量
+vec_input=[1:100];
+%调用子函数ex_3_4_new_sub
+ex_3_4_new_sub
+end
+
+function value=ex_3_4_new_sub(func_handle,vec)
+value=func_handle(vec);
+end

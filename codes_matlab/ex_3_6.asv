@@ -1,0 +1,15 @@
+function ex_3_6()
+%文件：ex_3_6.m
+%演示：函数的嵌套定义
+
+ex_3_6_1;
+ex_3_6_2;
+
+    function ex_3_6_1()
+        disp('ex_3_6_1');
+    end
+
+    function ex_3_6_2()
+        disp('ex_3_6_1');
+    end
+end

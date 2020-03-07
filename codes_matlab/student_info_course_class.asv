@@ -1,0 +1,8 @@
+classdef student_info_course_class<student_inf_class
+    properties
+        course_name,course_record;
+    end
+    methods(Static)
+        
+    end
+end
